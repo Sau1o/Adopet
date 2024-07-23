@@ -1,10 +1,11 @@
-import React from "react";
+import React from 'react';
 import {SafeAreaView, Text, StyleSheet} from 'react-native';
+import Test from './src/paginas/Teste';
 
 const App = () => {
-  return(
+  return (
     <SafeAreaView style={estilos.tela}>
-      <Text>APP OK</Text>
+      <Test />
     </SafeAreaView>
   );
 };
